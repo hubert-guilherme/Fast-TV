@@ -46,7 +46,7 @@ const observer = new IntersectionObserver((entries) => {
 // Observar elementos que devem aparecer ao scroll
 document.addEventListener('DOMContentLoaded', () => {
     const elementsToAnimate = document.querySelectorAll(
-        '.feature-card, .pricing-card, .promo-content'
+        '.feature-card, .pricing-card, .promo-content, .free-trial-banner, .persuasion-card, .persuasion-cta'
     );
     
     elementsToAnimate.forEach(el => {
@@ -186,7 +186,7 @@ window.addEventListener('scroll', () => {
 
 // ===== COPIAR NÚMERO DO WHATSAPP (FUNCIONALIDADE EXTRA) =====
 function copiarNumeroWhatsApp() {
-    const numero = '5531999999999'; // ALTERE PARA SEU NÚMERO
+    const numero = '5531996744652';
     
     if (navigator.clipboard) {
         navigator.clipboard.writeText(numero).then(() => {
